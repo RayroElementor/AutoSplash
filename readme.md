@@ -1,2 +1,2 @@
 
-https://RayroElementor.github.io/AutoSplash
+https://rayroelementor.github.io/autosplash
