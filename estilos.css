@@ -1,0 +1,173 @@
+
+.Contenedor{
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+body{
+    /* Fondo de la pagina */
+    background-image: url(Recursos/Fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Logo{
+    /* Logo */
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding-bottom: 4%;
+    padding-top: 75px;
+}
+
+body h1{
+    /* Texto debajo del logo */
+    color: white;
+    font-family: "comic sans ms";
+    text-align: center;
+    padding: 1%;
+}
+
+#Proceso{
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+
+#Flecha{
+    display: block;
+    margin: auto;
+    padding: 3%;
+    width: 2%;
+}
+
+.caja{
+    margin: 15px;
+    padding: 3%;
+    font-size: 250%;
+    font-family: "comic sans ms";
+    text-align: center;
+    color: #BADDF6;
+}
+
+.caja_columna div{
+    background-color: #1D3C5C;
+    border-radius: 25px;
+}
+
+.caja_columna{
+    display: grid;
+}
+
+@media(min-width:1080px){
+    .caja_columna{
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media(min-width:1080px){
+    .Contenedor{
+        width: 1500px;
+    }
+    .caja_columna{
+        grid-template-columns: repeat(10, 1fr);
+    }
+    .caja_columna .caja:nth-child(1){
+        grid-column: 1/11;
+    }
+    .caja_columna .caja:nth-child(2){
+        grid-column: 1/6;
+    }
+    .caja_columna .caja:nth-child(3){
+        grid-column: 6/11;
+    }
+}
+
+#TPromociones{
+    margin-top: 0%;
+    margin-bottom: 1%;
+    text-align: left;
+}
+
+#CPromociones{
+    color: white;
+    font-size: 70%;
+    margin: 0%;
+}
+
+#TRopa{
+    margin-bottom: 1%;
+    text-align: left;
+}
+
+#CRopa{
+    color: white;
+    font-size: 70%;
+    margin: 0%;
+    text-align: left;
+}
+
+#TAcolchados{
+    margin-bottom: 1%;
+    text-align: left;
+}
+
+#CAcolchados{
+    color: white;
+    font-size: 70%;
+    margin: 0%;
+    text-align: left;
+}
+
+#TMétodos{
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+
+#CMétodos{
+    color: white;
+    font-size: 70%;
+    margin: 0%;
+}
+
+#TMedios{
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+
+#RedesSociales img:hover{
+    filter: invert(1);
+}
+
+#Facebook{
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 27px;
+    color: #1D3C5C;
+}
+
+#Whatsapp{
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+    color: #1D3C5C;
+}
+
+#Instagram{
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+    color: #1D3C5C;
+}
+
+#Mapa{
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+    color: #1D3C5C;
+}
