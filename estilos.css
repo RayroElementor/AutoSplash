@@ -19,6 +19,7 @@ body{
     width: 60%;
     padding-bottom: 4%;
     padding-top: 75px;
+    pointer-events: none
 }
 
 body h1{
@@ -33,6 +34,7 @@ body h1{
     display: block;
     margin: auto;
     width: 25%;
+    pointer-events: none
 }
 
 #Flecha{
@@ -40,6 +42,7 @@ body h1{
     margin: auto;
     padding: 3%;
     width: 2%;
+    pointer-events: none
 }
 
 .caja{
