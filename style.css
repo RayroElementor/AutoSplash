@@ -1,0 +1,32 @@
+@font-face{
+    font-family: 'GBShinto';
+    src: url(Recursos/GBShinto-Regular.otf);
+}
+
+nav, a{
+    font-size: 25px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding: 1%;
+    justify-content: center;
+    background-color: #202225;
+}
+
+
+
+body{
+    background-color: #2f3136;
+    margin: 0;
+    
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-family: 'GbShinto', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 1%;
+    background-color: #202225;
+}
