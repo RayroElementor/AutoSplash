@@ -1,3 +1,3 @@
-# AutoSplash
+# Rael
 
-https://rayroelementor.github.io/Elementor/
+https://rayroelementor.github.io/Rael/
