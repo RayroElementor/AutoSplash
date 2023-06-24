@@ -3,23 +3,39 @@
     src: url(Recursos/GBShinto-Regular.otf);
 }
 
-nav, a{
+/*Nav bar*/
+nav, ul, a{
     font-size: 25px;
     display: flex;
     text-decoration: none;
     color: white;
     align-items: center;
-    padding: 1%;
+    padding: 0px;
     justify-content: center;
     background-color: #202225;
+    list-style: none;
 }
 
+li{
+    padding: 5px;
+}
 
+.L-nav{
+    width: 50px;
+    transition: all 1s ease-in-out;
+}
+.L-nav:hover {
+    transform: rotate(90deg);
+}
+
+a:hover{
+    color: rgb(22, 206, 206);
+}
+/*Nav bar*/
 
 body{
     background-color: #2f3136;
     margin: 0;
-    
 }
 
 footer{
